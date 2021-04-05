@@ -8,7 +8,7 @@
     "url": "https://github.com/iamkhan21/easy-crooked.git"
   },
   "license": "MIT",
-  "author": "Ivan Khanevich <ivan.khaneVK@gmail.com>",
+  "author": "Ivan Khanevich <ivan.khanevich@gmail.com>",
   "sideEffects": false,
   "main": "dist/",
   "module": "lib/",

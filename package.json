@@ -1,6 +1,6 @@
 {
   "name": "easy-crooked",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "private": false,
   "description": "JavaScript library for converting HTML to Markdown",
   "repository": {
@@ -19,9 +19,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "babel lib/ -d dist/ --source-maps --ignore '**/*.test.js' --delete-dir-on-start",
-    "format": "prettier --write '**/*.*' && eslint . --fix",
-    "lint": "prettier --check '**/*.*' && eslint .",
+    "build": "babel lib/ -d dist/ --source-maps --ignore **/*.test.js --delete-dir-on-start",
+    "format": "prettier --write **/*.* && eslint . --fix",
+    "lint": "prettier --check **/*.* && eslint .",
     "prepare": "yarn build",
     "semantic-release": "semantic-release",
     "test": "jest --coverage && yarn lint",

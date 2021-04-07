@@ -1,6 +1,6 @@
 {
   "name": "easy-crooked",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "private": false,
   "description": "JavaScript library for converting HTML to Markdown",
   "repository": {

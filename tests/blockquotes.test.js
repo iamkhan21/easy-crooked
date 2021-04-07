@@ -7,4 +7,8 @@ describe("Blockquotes", () => {
     const { sample, expected } = samples["blockquote"];
     expect(parseHtmlToMarkdown(sample)).toBe(expected);
   });
+  test("with header", () => {
+    const { sample, expected } = samples["with_header"];
+    expect(parseHtmlToMarkdown(sample)).toBe(expected);
+  });
 });

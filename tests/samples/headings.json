@@ -1,30 +1,30 @@
 {
   "H1": {
     "sample": "<h1>Test H1 parsing</h1>",
-    "expected": "# Test H1 parsing  \n"
+    "expected": "# Test H1 parsing"
   },
   "H2": {
     "sample": "<h2>Test H2 parsing</h2>",
-    "expected": "## Test H2 parsing  \n"
+    "expected": "## Test H2 parsing"
   },
   "H3": {
     "sample": "<h3>Test H3 parsing</h3>",
-    "expected": "### Test H3 parsing  \n"
+    "expected": "### Test H3 parsing"
   },
   "H4": {
     "sample": "<h4>Test H4 parsing</h4>",
-    "expected": "#### Test H4 parsing  \n"
+    "expected": "#### Test H4 parsing"
   },
   "H5": {
     "sample": "<h5>Test H5 parsing</h5>",
-    "expected": "##### Test H5 parsing  \n"
+    "expected": "##### Test H5 parsing"
   },
   "H6": {
     "sample": "<h6>Test H6 parsing</h6>",
-    "expected": "###### Test H6 parsing  \n"
+    "expected": "###### Test H6 parsing"
   },
   "siblings": {
     "sample": "<h1>Test H1</h1><h1>Test H1 2</h1><h4>parsing</h4><h2>test</h2>",
-    "expected": "# Test H1  \n# Test H1 2  \n#### parsing  \n## test  \n"
+    "expected": "# Test H1  \n# Test H1 2  \n#### parsing  \n## test"
   }
 }

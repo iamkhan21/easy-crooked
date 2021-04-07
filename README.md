@@ -43,8 +43,8 @@ console.log(markdown); // # Hello Easy Crooked!
 - [ ] Code
 - [ ] Lists
 - [ ] Horizontal Rules
-- [ ] Blockquotes (beautify nested)
 - [ ] Escaping Characters
+- [ ] Blockquotes (beautify nested)
 
 ### Extended Syntax
 - [ ] Tables

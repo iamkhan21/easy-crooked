@@ -1,0 +1,14 @@
+{
+  "a": {
+    "sample": "<a href=\"https://duckduckgo.com\">Duck Duck Go</a>",
+    "expected": "[Duck Duck Go](https://duckduckgo.com)"
+  },
+  "title": {
+    "sample": "<a href=\"https://duckduckgo.com\" title=\"The best search engine for privacy\">Duck Duck Go</a>",
+    "expected": "[Duck Duck Go](https://duckduckgo.com \"The best search engine for privacy\")"
+  },
+  "paragraph": {
+    "sample": "<p>My favorite search engine is <a href=\"https://duckduckgo.com\">Duck Duck Go</a>.</p>",
+    "expected": "My favorite search engine is [Duck Duck Go](https://duckduckgo.com)."
+  }
+}

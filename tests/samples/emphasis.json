@@ -3,7 +3,10 @@
     "sample": "<strong>bold text</strong>",
     "expected": "**bold text**"
   },
-  "b": { "sample": "<b>bold text</b>", "expected": "**bold text**" },
+  "b": {
+    "sample": "<b>bold text</b>",
+    "expected": "**bold text**"
+  },
   "bold_p_1": {
     "sample": "<p>I just love <strong>bold text</strong>.</p>",
     "expected": "I just love **bold text**."
@@ -16,7 +19,10 @@
     "sample": "<em>Italicized text</em>",
     "expected": "*Italicized text*"
   },
-  "i": { "sample": "<i>Italicized text</i>", "expected": "*Italicized text*" },
+  "i": {
+    "sample": "<i>Italicized text</i>",
+    "expected": "*Italicized text*"
+  },
   "italic_p_1": {
     "sample": "<p>Italicized text is the <em>cat's meow</em>.</p>",
     "expected": "Italicized text is the *cat's meow*."

@@ -12,8 +12,10 @@
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [TODO](#todo)
 
 ---
+
 
 ## Installation
 Install using the package manager for your desired environment(s):
@@ -23,11 +25,26 @@ npm install easy-crooked
 yarn add easy-crooked
 ```
 
+
 ## Usage
-``` bash
+``` javascript
 import parseHtmlToMarkdown from "easy-crooked";
 
 const htmlString = `<h1>Hello Easy Crooked!</h1>`;
 const markdown = parseHtmlToMarkdown(htmlString);
+
 console.log(markdown); // # Hello Easy Crooked!
 ```
+
+
+## TODO
+
+### Basic Syntax
+- [ ] Code
+- [ ] Lists
+- [ ] Horizontal Rules
+- [ ] Blockquotes (beautify nested)
+- [ ] Escaping Characters
+
+### Extended Syntax
+- [ ] Tables

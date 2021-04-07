@@ -2,7 +2,7 @@
   "name": "easy-crooked",
   "version": "0.0.2-development",
   "private": false,
-  "description": "JavaScript library for converting HTML to Markdown",
+  "description": "JavaScript library for converting HTML into Markdown",
   "repository": {
     "type": "git",
     "url": "https://github.com/iamkhan21/easy-crooked.git"

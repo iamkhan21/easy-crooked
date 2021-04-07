@@ -1,0 +1,6 @@
+{
+  "img": {
+    "sample": "<img src=\"https://d33wubrfki0l68.cloudfront.net/eab45e25bb79970178fab7a2d10cba0209372a59/94d9e/assets/images/philly-magic-garden.jpg\" class=\"img-fluid\" alt=\"Philadelphia's Magic Gardens. This place was so cool!\" title=\"Philadelphia's Magic Gardens\">",
+    "expected": "![Philadelphia's Magic Gardens. This place was so cool!](https://d33wubrfki0l68.cloudfront.net/eab45e25bb79970178fab7a2d10cba0209372a59/94d9e/assets/images/philly-magic-garden.jpg \"Philadelphia's Magic Gardens\")"
+  }
+}

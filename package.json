@@ -19,12 +19,13 @@
     "README.md"
   ],
   "scripts": {
-    "build": "babel lib/ -d dist/ --source-maps --ignore **/*.test.js --delete-dir-on-start",
+    "build": "babel lib/ -d dist/ --source-maps --delete-dir-on-start",
     "format": "prettier --write **/*.* && eslint . --fix",
     "lint": "prettier --check **/*.* && eslint .",
     "prepare": "yarn build",
     "semantic-release": "semantic-release",
     "test": "jest --coverage && yarn lint",
+    "test:watch": "jest --watch",
     "update:deps": "yarn upgrade-interactive --latest && yarn upgrade",
     "update:cssdb": "npx browserslist@latest --update-db"
   },
@@ -74,7 +75,9 @@
     }
   },
   "jest": {},
-  "dependencies": {},
+  "dependencies": {
+    "html-dom-parser": "^1.0.0"
+  },
   "devDependencies": {
     "@babel/cli": "7.13.14",
     "@babel/core": "7.13.14",

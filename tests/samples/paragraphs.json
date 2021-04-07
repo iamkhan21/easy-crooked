@@ -1,0 +1,14 @@
+{
+  "p": {
+    "sample": "<p>By this point, you probably have all the background necessary to understand the concepts. Let's fit all the things that we have learnt up to now and build the parser.</p>",
+    "expected": "By this point, you probably have all the background necessary to understand the concepts. Let's fit all the things that we have learnt up to now and build the parser.\n"
+  },
+  "spaces": {
+    "sample": "<p class=\"testing\">\n  I think I'll use it to format all \nof my documents from now on.\n\n</p>",
+    "expected": "\n  I think I'll use it to format all \nof my documents from now on.\n\n\n"
+  },
+  "siblings": {
+    "sample": "<p>I think I'll use it to format all of my documents from now on.</p><p>Let's fit all the things that we have learnt up to now and build the parser.</p>",
+    "expected": "I think I'll use it to format all of my documents from now on.\nLet's fit all the things that we have learnt up to now and build the parser.\n"
+  }
+}

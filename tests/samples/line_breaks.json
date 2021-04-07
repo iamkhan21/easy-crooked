@@ -1,14 +1,14 @@
 {
   "paragraph": {
     "sample": "<p>This is the first line.<br/>And this is the second line.</p>",
-    "expected": "This is the first line.  \nAnd this is the second line.\n"
+    "expected": "This is the first line.  \nAnd this is the second line.  \n"
   },
   "header": {
     "sample": "<h2>This is the first line.<br/>And this is the second line.</h2>",
-    "expected": "## This is the first line.  \nAnd this is the second line.\n"
+    "expected": "## This is the first line.  \nAnd this is the second line.  \n"
   },
   "several": {
     "sample": "<p>This is the first line.<br>And this is<br/>the second line.</p>",
-    "expected": "This is the first line.  \nAnd this is  \nthe second line.\n"
+    "expected": "This is the first line.  \nAnd this is  \nthe second line.  \n"
   }
 }

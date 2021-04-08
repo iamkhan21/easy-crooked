@@ -1,0 +1,6 @@
+{
+  "hr": {
+    "sample": "<p>The rendered output of all three looks identical:</p><hr><h3 id=\"horizontal-rule-best-practices\">Horizontal Rule Best Practices</h3>",
+    "expected": "The rendered output of all three looks identical:  \n---  \n### Horizontal Rule Best Practices"
+  }
+}

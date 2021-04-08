@@ -3,6 +3,12 @@
   "version": "0.0.2-development",
   "private": false,
   "description": "JavaScript library for converting HTML into Markdown",
+  "keywords": [
+    "converter",
+    "html",
+    "markdown",
+    "md"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/iamkhan21/easy-crooked.git"
@@ -25,7 +31,7 @@
     "prepare": "yarn build",
     "semantic-release": "semantic-release",
     "test": "jest --coverage && yarn lint",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --maxWorkers=25% --watch",
     "update:deps": "yarn upgrade-interactive --latest && yarn upgrade",
     "update:cssdb": "npx browserslist@latest --update-db"
   },

@@ -1,7 +1,5 @@
 # easy-crooked (under development)
 
----
-
 **easy-crooked** is a JavaScript library for converting HTML into Markdown.
 
 ![npm](https://img.shields.io/npm/v/easy-crooked)
@@ -10,24 +8,25 @@
 [![codecov](https://codecov.io/gh/iamkhan21/easy-crooked/branch/master/graph/badge.svg)](https://codecov.io/gh/iamkhan21/easy-crooked)
 [![GitHub license](https://img.shields.io/github/license/iamkhan21/easy-crooked?style=flat)](https://github.com/iamkhan21/easy-crooked/blob/master/LICENSE)
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [TODO](#todo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [TODO](#todo)
 
 ---
 
-
 ## Installation
+
 Install using the package manager for your desired environment(s):
-``` bash
+
+```bash
 npm install easy-crooked
 # OR:
 yarn add easy-crooked
 ```
 
-
 ## Usage
-``` javascript
+
+```javascript
 import parseHtmlToMarkdown from "easy-crooked";
 
 const htmlString = `<h1>Hello Easy Crooked!</h1>`;
@@ -36,15 +35,15 @@ const markdown = parseHtmlToMarkdown(htmlString);
 console.log(markdown); // # Hello Easy Crooked!
 ```
 
-
 ## TODO
 
 ### Basic Syntax
+
 - [ ] Code
-- [ ] Lists
-- [ ] Horizontal Rules
 - [ ] Escaping Characters
 - [ ] Blockquotes (beautify nested)
 
 ### Extended Syntax
+
 - [ ] Tables
+- [ ] Nested elements

@@ -1,0 +1,10 @@
+{
+  "ol": {
+    "sample": "<ol>\n<li>First item</li>\n<li>Second item</li>\n<li>Third item</li>\n<li>Fourth item</li>\n</ol>",
+    "expected": "1. First item\n2. Second item\n3. Third item\n4. Fourth item"
+  },
+  "ul": {
+    "sample": "<ul>\n<li>First item</li>\n<li>Second item</li>\n<li>Third item</li>\n<li>Fourth item</li>\n</ul>",
+    "expected": "- First item\n- Second item\n- Third item\n- Fourth item"
+  }
+}

@@ -5,6 +5,6 @@
   },
   "with_header": {
     "sample": "<blockquote><h4 class=\"no-anchor\" id=\"the-quarterly-results-look-great\">The quarterly results look great!</h4><ul><li>Revenue was off the chart.</li><li>Profits were higher than ever.</li></ul><p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote>",
-    "expected": "> #### The quarterly results look great!  \nRevenue was off the chart.Profits were higher than ever.*Everything* is going according to **plan**."
+    "expected": "> #### The quarterly results look great!  \n- Revenue was off the chart.\n- Profits were higher than ever.\n  \n*Everything* is going according to **plan**."
   }
 }

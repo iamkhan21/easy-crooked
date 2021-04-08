@@ -2,7 +2,7 @@ import parseHtmlToMarkdown from "../lib";
 
 import samples from "./samples/lists.json";
 
-describe("Links", () => {
+describe("Lists", () => {
   test("ol", () => {
     const { sample, expected } = samples["ol"];
     expect(parseHtmlToMarkdown(sample)).toBe(expected);

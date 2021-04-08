@@ -7,4 +7,8 @@ describe("Images", () => {
     const { sample, expected } = samples["img"];
     expect(parseHtmlToMarkdown(sample)).toBe(expected);
   });
+  test("with title", () => {
+    const { sample, expected } = samples["with_title"];
+    expect(parseHtmlToMarkdown(sample)).toBe(expected);
+  });
 });

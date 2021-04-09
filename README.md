@@ -1,4 +1,4 @@
-# easy-crooked (under development)
+# easy-crooked (under development) | [demo](https://easy-crooked.netlify.app/)
 
 **easy-crooked** is a JavaScript library for converting HTML into Markdown.
 

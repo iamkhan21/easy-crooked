@@ -1,0 +1,18 @@
+{
+  "code": {
+    "sample": "<code>nano</code>",
+    "expected": "``nano``"
+  },
+  "backticks": {
+    "sample": "<code>Use `code` in your Markdown file.</code>",
+    "expected": "``Use `code` in your Markdown file.``"
+  },
+  "pre": {
+    "sample": "<pre>Use `code` in your Markdown file.</pre>",
+    "expected": "```Use `code` in your Markdown file.```"
+  },
+  "pre_code": {
+    "sample": "<pre><code>Use `code` in your Markdown file.</code></pre>",
+    "expected": "```Use `code` in your Markdown file.```"
+  }
+}

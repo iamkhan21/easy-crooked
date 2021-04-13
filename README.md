@@ -39,7 +39,6 @@ console.log(markdown); // # Hello Easy Crooked!
 
 ### Basic Syntax
 
-- [ ] Escaping Characters
 - [ ] Blockquotes (beautify nested)
 
 ### Extended Syntax

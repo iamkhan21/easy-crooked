@@ -82,7 +82,7 @@
   },
   "jest": {},
   "dependencies": {
-    "html-dom-parser": "^1.0.0"
+    "html-dom-parser": "^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.14.8",
